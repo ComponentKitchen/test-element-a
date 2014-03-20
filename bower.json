@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "dependencies": {
-    "polymer": "Polymer/polymer#master"
+    "polymer": "Polymer/polymer#master",
+    "key.mongo$doesnt.like": "Periods and dollar signs need to be escaped in Mongo keys"
   }
 }
