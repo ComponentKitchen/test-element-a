@@ -6,6 +6,5 @@
   "dependencies": {
     "polymer": "Polymer/polymer#master",
     "key.mongo$doesnt.like": "Periods and dollar signs need to be escaped in Mongo keys"
-  },
-  "updated": "2014-02-20T00:00:00Z"
+  }
 }
