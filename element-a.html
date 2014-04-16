@@ -1,0 +1,34 @@
+<!--
+This is test element A.
+
+@element test-element-a
+@blurb This is a blurb for test-element-a
+@preview preview.png
+-->
+<polymer-element name="test-element-a" attributes="foo bar">
+
+<script>
+Polymer( "test-element-a", {
+
+  /**
+   * The element's foo attribute
+   *
+   * @attribute foo
+   * @type number
+   * @default 0
+   */
+  foo: null,
+
+  /**
+   * The element's bar attribute
+   *
+   * @attribute bar
+   * @type boolean
+   * @default false
+   */
+  bar: false
+
+});
+</script>
+
+</polymer-element>

@@ -7,5 +7,5 @@
     "polymer": "Polymer/polymer#master",
     "key.mongo$doesnt.like": "Periods and dollar signs need to be escaped in Mongo keys"
   },
-  "main": "custom-main-page.html"
+  "main": "element-a.html"
 }
