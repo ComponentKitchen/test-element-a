@@ -10,10 +10,10 @@ This is test element A.
 
 <script>
 /**
- * Test event
+ * Fired when the element changes.
  *
- * @event test-event
- * @param detail
+ * @event change
+ * @param {object} detail Details of the event
  */
 Polymer( "test-element-a", {
 
@@ -36,11 +36,12 @@ Polymer( "test-element-a", {
   bar: false,
 
   /**
-   * Refresh the element.
+   * A method.
    *
-   * @method refresh
+   * @method method
+   * @param argument An argument to the method.
    */
-  refresh: function() {
+  method: function( argument ) {
     // Do stuff here.
   }
 
