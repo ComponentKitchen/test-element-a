@@ -9,6 +9,12 @@ This is test element A.
 <polymer-element name="test-element-a" attributes="foo bar">
 
 <script>
+/**
+ * Test event
+ *
+ * @event test-event
+ * @param detail
+ */
 Polymer( "test-element-a", {
 
   /**
@@ -27,7 +33,16 @@ Polymer( "test-element-a", {
    * @type boolean
    * @default false
    */
-  bar: false
+  bar: false,
+
+  /**
+   * Refresh the element.
+   *
+   * @method refresh
+   */
+  refresh: function() {
+    // Do stuff here.
+  }
 
 });
 </script>
